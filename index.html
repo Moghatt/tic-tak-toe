@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 4px 4px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "a b c"
+                "d e f"
+                "i j k";
+        }
+
+        .a {
+            grid-area: a;
+        }
+
+        .b {
+            grid-area: b;
+        }
+
+        .c {
+            grid-area: c;
+        }
+
+        .d {
+            grid-area: d;
+        }
+
+        .e {
+            grid-area: e;
+        }
+
+        .f {
+            grid-area: f;
+        }
+
+        .i {
+            grid-area: i;
+        }
+
+        .j {
+            grid-area: j;
+        }
+
+        .k {
+            grid-area: k;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div>
+        <div class="i"></div>
+        <div class="j"></div>
+        <div class="k"></div>
+    </div>
+
+
+</body>
+
+</html>
 
