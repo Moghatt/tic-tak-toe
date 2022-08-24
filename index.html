@@ -6,72 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            gap: 4px 4px;
-            grid-auto-flow: row;
-            grid-template-areas:
-                "a b c"
-                "d e f"
-                "i j k";
-        }
+    <link rel="stylesheet" href="./style.css">
 
-        .a {
-            grid-area: a;
-        }
-
-        .b {
-            grid-area: b;
-        }
-
-        .c {
-            grid-area: c;
-        }
-
-        .d {
-            grid-area: d;
-        }
-
-        .e {
-            grid-area: e;
-        }
-
-        .f {
-            grid-area: f;
-        }
-
-        .i {
-            grid-area: i;
-        }
-
-        .j {
-            grid-area: j;
-        }
-
-        .k {
-            grid-area: k;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="a">a</div>
-        <div class="b">b</div>
-        <div class="c"></div>
-        <div class="d"></div>
-        <div class="e"></div>
-        <div class="f"></div>
-        <div class="i"></div>
-        <div class="j"></div>
-        <div class="k"></div>
+
+    <label for="cars">Choose your theme:</label>
+    <select id="color">
+        <option>default</option>
+        <option value="grey">grey</option>
+        <option value="lightblue">lightblue</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>
+    <button id="confirm">confirm</button>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div id="play-area">
+        <div class="row1">
+            <button class="square" id="1"></button>
+            <button class="square" id="2"></button>
+            <button class="square" id="3"></button>
+        </div>
+        <div class="row2">
+            <button class="square" id="4"></button>
+            <button class="square" id="5"></button>
+            <button class="square" id="6"></button>
+        </div>
+        <div class="row3">
+            <button class="square" id="7"></button>
+            <button class="square" id="8"></button>
+            <button class="square" id="9"></button>
+        </div>
+
     </div>
+    <button class="restart">Restart</button>
+    <ul>
+
+    </ul>
 
 
+
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
-
