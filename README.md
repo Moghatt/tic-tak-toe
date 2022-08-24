@@ -1,4 +1,4 @@
-# Project Name
+# Tic Tak Toe
 
 The briefest description of my cool project and why you should all use it.
 
