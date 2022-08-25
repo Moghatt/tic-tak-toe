@@ -11,7 +11,7 @@ let player1Score = document.querySelector(".player1-score");
 let player2Score = document.querySelector(".player2-score");
 // let bgm = document.querySelector("#bgm");
 // let music = document.querySelector(".music");
-var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+// var randomColor = Math.floor(Math.random() * 16777215).toString(16);
 // console.log(randomColor);
 // music.addEventListener("click", (e) => {
 //   console.log(bgm.play());
@@ -66,8 +66,8 @@ function squareClicked(e) {
 var counter1 = 0;
 var counter2 = 0;
 
-var someVarName = "value";
-localStorage.setItem("someVarKey", someVarName);
+// var someVarName = "value";
+// localStorage.setItem("someVarKey", someVarName);
 
 function endGame(result) {
   if (result == "draw") {
