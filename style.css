@@ -75,7 +75,7 @@ main{
     list-style: none;
     font-size: 14px;
     font-style: italic;
-    color: rgb(51, 10, 89);
+    color: rgb(87, 31, 140);
     margin-right: 40px;
 }
 
@@ -83,3 +83,7 @@ main{
     font-size: larger;
     margin: 0;
 }
+
+/* .backgroundMusic{
+    display: none;
+} */

@@ -9,6 +9,21 @@ let colors = document.querySelector("#color");
 let body = document.querySelector("body");
 let player1Score = document.querySelector(".player1-score");
 let player2Score = document.querySelector(".player2-score");
+// let bgm = document.querySelector("#bgm");
+// let music = document.querySelector(".music");
+var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+// console.log(randomColor);
+// music.addEventListener("click", (e) => {
+//   console.log(bgm.play());
+// });
+
+body.addEventListener("click", (e) => {
+  console.log(e.target);
+  // document.body.style.background = "#" + randomColor;
+});
+
+// var audio = new Audio("");
+// audio.play();
 
 let currentPlayer = playerOne;
 let winner;
