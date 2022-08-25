@@ -12,9 +12,10 @@ The briefest description of my cool project and why you should all use it.
 ```
 Just ckick the link and set your theme and Play it with your besties.
 unfortuently, some cool feature is not availabe at moment.
+Our next version is coming at the end of November with awsome features.
 ```
 
-- Add in-app screenshots.
+![Wireframing](https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
 
 ## :pencil2: Planning & Problem Solving
 
