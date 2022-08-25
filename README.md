@@ -9,7 +9,8 @@ The briefest description of my cool project and why you should all use it.
 - How to use my awesome project.
 - Download instructions (if relevant):
 
-```Just ckick the link and set your theme and Play it with your besties.
+```
+Just ckick the link and set your theme and Play it with your besties.
 unfortuently, some cool feature is not availabe at moment.
 ```
 
