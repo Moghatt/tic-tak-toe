@@ -15,8 +15,6 @@ unfortuently, some cool feature is not availabe at moment.
 Our next version is coming at the end of November with awsome features.
 ```
 
-![Wireframing](https://im.ge/i/Screenshot-2022-08-25-235009.OmVGp8)
-
 ## :pencil2: Planning & Problem Solving
 
 - Talk about approach to the problem.
@@ -26,10 +24,10 @@ Our next version is coming at the end of November with awsome features.
 
 ## :rocket: Cool tech
 
-- Programming languages
-- Libraries
-- Animations
-- Anything else you'd be proud to show your parents
+- Javascript
+- HTML
+- CSS
+
 
 ## :scream: Bugs to fix :poop:
 
