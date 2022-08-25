@@ -9,13 +9,11 @@ The briefest description of my cool project and why you should all use it.
 - How to use my awesome project.
 - Download instructions (if relevant):
 
-```zsh
-$ git clone my-awesome-app
-$ cd my-awesome-app
-$ node app.js
 ```
-
-- Add in-app screenshots.
+Just ckick the link and set your theme and Play it with your besties.
+unfortuently, some cool feature is not availabe at moment.
+Our next version is coming at the end of November with awsome features.
+```
 
 ## :pencil2: Planning & Problem Solving
 
@@ -26,10 +24,10 @@ $ node app.js
 
 ## :rocket: Cool tech
 
-- Programming languages
-- Libraries
-- Animations
-- Anything else you'd be proud to show your parents
+- Javascript
+- HTML
+- CSS
+
 
 ## :scream: Bugs to fix :poop:
 
