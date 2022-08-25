@@ -7,6 +7,8 @@ let restart = document.querySelector(".restart");
 let confirm = document.querySelector("#confirm");
 let colors = document.querySelector("#color");
 let body = document.querySelector("body");
+let player1Score = document.querySelector(".player1-score");
+let player2Score = document.querySelector(".player2-score");
 
 let currentPlayer = playerOne;
 let winner;
@@ -46,21 +48,40 @@ function squareClicked(e) {
   }
 }
 
+var counter1 = 0;
+var counter2 = 0;
+
+var someVarName = "value";
+localStorage.setItem("someVarKey", someVarName);
+
 function endGame(result) {
   if (result == "draw") {
     let li = document.createElement("li");
     li.textContent = "Woops, it's a Draw";
+    li.classList.add("draw-sentence");
     ul.appendChild(li);
   } else {
     if (currentPlayer == "O") {
       let li = document.createElement("li");
-      li.textContent = `PLAYER ONE Wins`;
+      li.classList.add("wining-sentence");
+      li.textContent = `PLAYER ONE WINS`;
+
       ul.appendChild(li);
+      var updateCounter = counter1 + 1;
+
+      player1Score.textContent = updateCounter;
+      player1Score.classList.add("numberScore");
+      // localStorage.setItem("score", updateCounter);
+
       removeEvent();
     } else {
       let li = document.createElement("li");
-      li.textContent = `PLAYER two Wins`;
+      li.classList.add("wining-sentence");
+      li.textContent = `PLAYER TWO WINS`;
       ul.appendChild(li);
+      var updateCounter2 = counter2 + 1;
+      player2Score.textContent = updateCounter2;
+      player2Score.classList.add("numberScore");
       removeEvent();
     }
   }
@@ -138,5 +159,9 @@ confirm.addEventListener("click", (e) => {
     document.body.style.background = "gray";
   } else if (colors.value == "lightblue") {
     document.body.style.background = "#cceeff";
+  } else if (colors.value == "blue/green") {
+    document.body.style.background = "rgb(59 207 208)";
+  } else {
+    document.body.style.background = "yellow";
   }
 });
