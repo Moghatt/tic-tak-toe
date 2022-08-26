@@ -37,7 +37,7 @@ Our next version is coming at the end of November with awsome features.
 
 ## :sob: Lessons learnt
 
-What I would do differently if I could wind back the clock...
+I use definely more comment in my code.
 
 ## :white_check_mark: Future features
 
