@@ -9,6 +9,8 @@ let colors = document.querySelector("#color");
 let body = document.querySelector("body");
 let player1Score = document.querySelector(".player1-score");
 let player2Score = document.querySelector(".player2-score");
+let playerXturn = document.querySelector('.turnPl1')
+let playerOturn = document.querySelector('.turnPl2')
 // let bgm = document.querySelector("#bgm");
 // let music = document.querySelector(".music");
 // var randomColor = Math.floor(Math.random() * 16777215).toString(16);
@@ -22,10 +24,15 @@ body.addEventListener("click", (e) => {
   // document.body.style.background = "#" + randomColor;
 });
 
-// var audio = new Audio("");
-// audio.play();
-
 let currentPlayer = playerOne;
+playerXturn.textContent = 'player O Turn'
+// if(currentPlayer == playerOne){
+//   playerXturn.textContent = 'player O Turn'
+// } else {
+//   playerOturn.textContent = 'player X Turn'
+// }
+
+
 let winner;
 let clickArray = [null, null, null, null, null, null, null, null, null];
 
@@ -55,8 +62,13 @@ function squareClicked(e) {
 
     if (currentPlayer === playerOne) {
       currentPlayer = playerTwo;
+      playerOturn.textContent = 'player X Turn'
+      playerXturn.textContent = ''
     } else {
       currentPlayer = playerOne;
+      playerXturn.textContent = 'player O Turn'
+      playerOturn.textContent = ''
+      
     }
 
     console.log(clickArray);
@@ -83,8 +95,11 @@ function endGame(result) {
 
       ul.appendChild(li);
       var updateCounter = counter1 + 1;
+      // localStorage.setItem("bgcolor", updateCounter);
+      // console.log(getItem(updateCounter));
 
       player1Score.textContent = updateCounter;
+
       player1Score.classList.add("numberScore");
       // localStorage.setItem("score", updateCounter);
 

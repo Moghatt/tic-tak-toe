@@ -1,87 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
 
 body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 
 }
+
 h1 {
-    color: red;
+  color: red;
 }
 
 #play-area {
-    border: black solid 2px;
-    overflow: hidden;
+  border: black solid 2px;
+  overflow: hidden;
 
 }
 
 .square {
-    width: 5em;
-    height: 5em;
-    float: left;
-    border: black solid 1px;
-    background-color: white;
-    cursor: pointer;
+  width: 5em;
+  height: 5em;
+  float: left;
+  border: black solid 1px;
+  background-color: white;
+  cursor: pointer;
 }
 
 .square:hover {
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 }
-.row1,.row2,.row3{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.restart{
-    
-    margin-top: 15px;
+
+.restart {
+
+  margin-top: 15px;
 }
-#confirm{
-    margin-top: 5px;
+
+#confirm {
+  margin-top: 5px;
 }
-main{
-      
-            margin: 0;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-           
-            overflow: hidden;
+
+main {
+
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  overflow: hidden;
 }
-.wining-sentence{
-    list-style: none;
-    font-size: 14px;
-    font-style: italic;
-    color: green;
-    margin-right: 40px;
+
+.wining-sentence {
+  list-style: none;
+  font-size: 14px;
+  font-style: italic;
+  color: green;
+  margin-right: 40px;
 }
 
 .draw-sentence {
-    list-style: none;
-    font-size: 14px;
-    font-style: italic;
-    color: rgb(87, 31, 140);
-    margin-right: 40px;
+  list-style: none;
+  font-size: 14px;
+  font-style: italic;
+  color: rgb(87, 31, 140);
+  margin-right: 40px;
 }
 
-.numberScore{
-    font-size: larger;
-    margin: 0;
+.numberScore {
+  font-size: larger;
+  margin: 0;
 }
 
 /* .backgroundMusic{
